@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-web-client",
+  "version": "1.0.0",
+  "description": "A Node.js library for interacting with WhatsApp Web using WebSocket and encryption.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/tests/test.js"
+  },
+  "keywords": ["whatsapp", "websocket", "nodejs", "api", "messaging"],
+  "author": "Marius",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.0",
+    "qrcode": "^1.5.2"
+  }
+}
